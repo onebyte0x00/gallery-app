@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> Gallery App </h1>
+    </header>
+    
+    <main>
+        <div class="gallery-controls">
+            <button id="prev-btn">Previous</button>
+            <select id="album-selector">
+                <option value="">Select an album</option>
+                <option value="img1">Album 1</option>
+                <option value="img2">Album 2</option>
+                <!-- Add more albums as needed -->
+            </select>
+            <button id="next-btn">Next</button>
+        </div>
+        
+        <div class="gallery-container">
+            <div id="image-viewer">
+                <img id="current-image" src="" alt="Gallery Image">
+                <div id="image-info"></div>
+            </div>
+            
+            <div id="thumbnail-container"></div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Hosted on GitHub Pages</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
