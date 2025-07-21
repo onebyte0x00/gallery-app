@@ -17,14 +17,14 @@ document.addEventListener('DOMContentLoaded', function() {
         img1: [
             { src: 'img/img1/photo1.jpg', alt: 'Photo 1 from Album 1' },
             { src: 'img/img1/photo2.jpg', alt: 'Photo 1 from Album 1' },
-            { src: 'img/img1/photo3.jpg', alt: 'Photo 2 from Album 1' }
+            { src: 'img/img1/photo3.jpg', alt: 'Photo 3 from Album 1' }
             // Add more  
         ],
         img2: [
             { src: 'img/img2/photo1.jpg', alt: 'Photo 1 from Album 2' },
             { src: 'img/img2/photo2.jpg', alt: 'Photo 2 from Album 2' },
-            { src: 'img/img2/photo3.jpg', alt: 'Photo 2 from Album 2' }
-            // Add more images as needed
+            { src: 'img/img2/photo3.jpg', alt: 'Photo 3 from Album 2' }
+            // Add more 
         ]
         // Add more albums as needed
     };
