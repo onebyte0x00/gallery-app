@@ -12,16 +12,18 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentIndex = 0;
     let images = [];
     
-    // Album data - replace with your actual image paths
+    // Album data  
     const albums = {
         img1: [
             { src: 'img/img1/photo1.jpg', alt: 'Photo 1 from Album 1' },
-            { src: 'img/img1/photo2.jpg', alt: 'Photo 2 from Album 1' }
-            // Add more images as needed
+            { src: 'img/img1/photo2.jpg', alt: 'Photo 1 from Album 1' },
+            { src: 'img/img1/photo3.jpg', alt: 'Photo 2 from Album 1' }
+            // Add more  
         ],
         img2: [
             { src: 'img/img2/photo1.jpg', alt: 'Photo 1 from Album 2' },
-            { src: 'img/img2/photo2.jpg', alt: 'Photo 2 from Album 2' }
+            { src: 'img/img2/photo2.jpg', alt: 'Photo 2 from Album 2' },
+            { src: 'img/img2/photo3.jpg', alt: 'Photo 2 from Album 2' }
             // Add more images as needed
         ]
         // Add more albums as needed
@@ -96,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
-    // Initialize with first album if needed
-     albumSelector.value = 'img1';
+    // Initialize with first album 
+    albumSelector.value = 'img1';
      loadAlbum();
 });
