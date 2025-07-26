@@ -1,5 +1,5 @@
 # projects gallery app 
- im learning native js /n
+ im learning native js \n
 you can try it on
 https://onebyte0x00.github.io/projects-gallery-app/index.html
 
